@@ -5,7 +5,7 @@ class ArraySort
 	public static void main(String args[])
 	{
 									
-		Scanner sc=new Scanner(System.in);											
+		Scanner sc=new Scanner(System.in);		// Takes input from the keyboard									
 		System.out.println("enter number of elements");
 		int n=sc.nextInt();
 		System.out.println("enter array elements");
@@ -13,15 +13,15 @@ class ArraySort
 		
 		for(int i=0;i<a.length;i++)
 		{
-			a[i]=sc.nextInt();
+			a[i]=sc.nextInt();                     // Entered values should be assigned
 		
 		}
 		System.out.println("Array elements are");
-		for(int i=0;i<a.length;i++)
+		for(int i=0;i<a.length;i++)                   // Array values Displayed
 		{
 			System.out.println(a[i]);
 		}
-		for(int i=0;i<a.length;i++)
+		for(int i=0;i<a.length;i++)                   // Logic for the sorting of an element
 		{
 			for(int j=i+1;j<a.length;j++)
 			{
@@ -34,7 +34,7 @@ class ArraySort
 			}
 		}
 		System.out.println("Sort the array elements");
-		for(int i=0;i<a.length;i++)
+		for(int i=0;i<a.length;i++)                   // Reverse of an elements are displayed
 		{
 			System.out.println(a[i]);
 		}
